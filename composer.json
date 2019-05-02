@@ -1,0 +1,33 @@
+{
+    "name": "mahendravala/lara-authorize-subscription",
+    "description": "A Laravel Subscription interface to Authorize.net's subscription native billing services.",
+    "keywords": ["laravel", "billing", "cashier", "authorize.net", "payment module", "subscription"],
+    "type": "library",
+	"support": {
+        "issues": "https://github.com/mahendravala/lara-authorizedotnet/issues",
+        "source": "https://github.com/mahendravala/lara-authorizedotnet"
+    },
+    "require": {
+        "authorizenet/authorizenet": "^2.0",
+        "illuminate/database": "~5.7.0|~5.8.0|~5.9.0",
+        "illuminate/support": "~5.7.0|~5.8.0|~5.9.0",
+		"illuminate/container": "5.8.*",
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "illuminate/view": "~5.7.0|~5.8.0|~5.9.0",
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahe Vala",
+            "email": "mahendravala1986@gmail.com"
+        }
+    ],
+   "autoload": {
+        "psr-4": {
+            "LaraAuthorizeSubscription\\": "src/"
+        }
+   },
+    "minimum-stability": "dev"
+}
