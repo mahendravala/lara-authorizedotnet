@@ -1,5 +1,5 @@
 {
-    "name": "mahendravala/lara-authorize-subscription",
+    "name": "mahendravala/lara-authorizedotnet",
     "description": "A Laravel Subscription interface to Authorize.net's subscription native billing services.",
     "keywords": ["laravel", "billing", "cashier", "authorize.net", "payment module", "subscription"],
     "type": "library",
@@ -26,7 +26,7 @@
     ],
    "autoload": {
         "psr-4": {
-            "LaraAuthorizeSubscription\\": "src/"
+            "Laraauthorizedotnet\\": "src/"
         }
    },
     "minimum-stability": "dev"
